@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  shopmaroc-agent:
+    build: .
+    container_name: shopmaroc_governance_agent
+    environment:
+      - PYTHONUNBUFFERED=1
